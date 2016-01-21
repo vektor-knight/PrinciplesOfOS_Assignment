@@ -1,0 +1,10 @@
+libKOS.o: libKOS.cc \
+ /home/grads/mojtaba.komeili/cpsc457-kos/src/ulib/../testoptions.h \
+ /home/grads/mojtaba.komeili/cpsc457-kos/src/ulib/../include/syscalls.h \
+ /home/grads/mojtaba.komeili/cpsc457-kos/src/ulib/../include/kostypes.h
+pthread.o: pthread.cc \
+ /home/grads/mojtaba.komeili/cpsc457-kos/src/ulib/../testoptions.h \
+ /home/grads/mojtaba.komeili/cpsc457-kos/src/ulib/../include/syscalls.h \
+ /home/grads/mojtaba.komeili/cpsc457-kos/src/ulib/../include/kostypes.h \
+ /home/grads/mojtaba.komeili/cpsc457-kos/src/ulib/../include/pthread.h \
+ /home/grads/mojtaba.komeili/cpsc457-kos/src/ulib/../include/syscalls.h

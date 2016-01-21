@@ -1,0 +1,18 @@
+threadtest.o: threadtest.cc \
+ /home/grads/mojtaba.komeili/cpsc457-kos/src/user/../testoptions.h \
+ /home/grads/mojtaba.komeili/cpsc457-kos/src/user/../include/syscalls.h \
+ /home/grads/mojtaba.komeili/cpsc457-kos/src/user/../include/kostypes.h \
+ /home/grads/mojtaba.komeili/cpsc457-kos/src/user/../include/pthread.h \
+ /home/grads/mojtaba.komeili/cpsc457-kos/src/user/../include/syscalls.h
+systest.o: systest.cc \
+ /home/grads/mojtaba.komeili/cpsc457-kos/src/user/../testoptions.h \
+ /home/grads/mojtaba.komeili/cpsc457-kos/src/user/../include/syscalls.h \
+ /home/grads/mojtaba.komeili/cpsc457-kos/src/user/../include/kostypes.h
+manythread.o: manythread.cc \
+ /home/grads/mojtaba.komeili/cpsc457-kos/src/user/../testoptions.h \
+ /home/grads/mojtaba.komeili/cpsc457-kos/src/user/../include/syscalls.h \
+ /home/grads/mojtaba.komeili/cpsc457-kos/src/user/../include/kostypes.h \
+ /home/grads/mojtaba.komeili/cpsc457-kos/src/user/../include/pthread.h \
+ /home/grads/mojtaba.komeili/cpsc457-kos/src/user/../include/syscalls.h
+kbloop.o: kbloop.cc \
+ /home/grads/mojtaba.komeili/cpsc457-kos/src/user/../testoptions.h
